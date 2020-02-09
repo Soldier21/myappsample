@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta charset="UTF-8"/> 
+</head>  
+<body>
+<form action="mailto:cihandks@gmail.com" method="post">                                    <!-- Burda "aksiyon" fonksiyonu ile mail atabiliyoruz. Method:Post olacak tabii-->
+   <label for="isim"> İsim: </label>                                                       <!-- "Label" komutu yazılan texten önceki satırda  yazılmalı. Yoksa hatalı!-->
+   <input type="text" name="isim" value=""><br> 
+   <input type="text" name="dyeri" value="istanbul"><br>                                   <!-- HTML'de birden çok type komutu vardır.Burda type:text seçilmiştir!-->
+   <label for="gift">Hediye sever misiniz: </label>
+   <input type="checkbox" name="gift" value="yes"><br>                                     <!-- type:checkbox seçilmiştir-->
+   
+   <button type="submit">Gönder</button>
+   <button type="clear">Temizle</button>                                                   <!-- "button" komutu ile temizleme veya seçme işlemleri yapabiliriz.-->
+   
+   <select name="popup">                                                                   <!-- "select" ile websitesine birden çok seçim kısımları koyabiliriz. Kod bloğu şeklinde oluşturulur!-->
+    <option value="option1">Option 1 </option>
+	<option value="option2">Option 2 </option>
+   </select>
+   
+</form>
+</body>
+</html>
